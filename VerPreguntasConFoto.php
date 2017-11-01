@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta name="tipo_contenido" content="text/html;" http-equiv="content-type" charset="utf-8">
 	<title>Preguntas</title>
     <link rel='stylesheet' type='text/css' href='estilos/style.css' />
@@ -16,15 +17,15 @@
   <body>
   <div id='page-wrap'>
 	<header class='main' id='h1'>
-		<span class="right"><a href="registro">Registrarse</a></span>
-      		<span class="right"><a href="login">Login</a></span>
+      		<span class="right"><a href="layout.html">Logout</a></span>
       		<span class="right" style="display:none;"><a href="/logout">Logout</a></span>
 		<h2>Quiz: el juego de las preguntas</h2>
     </header>
 	<nav class='main' id='n1' role='navigation'>
-		<span><a href='layout.html'>Inicio</a></spam>
-		<span><a href='pregunta.html'>Preguntas</a></spam>
-		<span><a href='creditos.html'>Creditos</a></spam>
+		<span><a href='layoutlogged.html'>Inicio</a></spam>
+		<span><a href='pregunta.php'>Preguntas</a></spam>
+		<span><a href='VerPreguntasConFoto.php'>Ver Preguntas</a></spam>
+		<span><a href='creditoslogged.html'>Creditos</a></spam>
 	</nav>
     <section class="main" id="s1">
     
